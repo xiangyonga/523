@@ -1,0 +1,9 @@
+{
+	"res_code":1,
+	"res_msg":"success",
+	"res_body":{
+		"register":[
+			{"id":1,"username":"xy","password":"","phonenumber": 13182768992}
+		]
+	}
+}

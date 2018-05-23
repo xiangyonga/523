@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>register</title>
+		<meta name="keywords" content="登录">
+		<meta name="author" content="xiangyong">
+		<link rel="shortcut icon" type="text/css" href="../images/zangbao.jpg">
+		<link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/base.css">
+		<link rel="stylesheet" type="text/css" href="../css/register.css">
+		<!-- 	<script src="lib/jquery/jquery-1.12.4.min.js"></script>
+	<script src="lib/bootstrap/js/bootstrap.min.js"></script> -->
+		<script type="text/javascript" src="../lib/jquery/jquery-1.12.4.min.js"></script>
+		<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		<script type="text/javascript" src="../js/register.js"></script>
+	</head>
+
+	<body>
+		<div class="container" style="height: 80px;padding: 0 100px;">
+			<a href="../index.html"><img src="../images/05204284784259187.png" style="margin-top: 10px;cursor:pointer;"></a>
+			<div class="nc-login-now" style="float:right;margin-right: 10px;margin-top:50px;"><span style="letter-spacing: 0px;color: #aaaaaa;font-size: 14px;font-weight: 600;">我已经注册，现在就&nbsp;&nbsp;</span><b><a href="login.html" style="color:#0066cc;">登录</a></b></div>
+		</div>
+		<div class="cotainer-fluid" style="height: 734px;background: url(../images/register_bg.png) repeat 50% 50%;opacity: 1;width:100%;">
+			<div class="container">
+				<div style="width: 220px;height: 54px;background-color:white;;border-bottom-left-radius: 54px;border-bottom-right-radius: 54px;margin-left: 80px;">
+				</div>
+			</div>
+			<div class="pcRegister" style="display:flex;width: 880px;height: 580px;border:10px solid #cccccc;margin:54px auto;background: white;">
+				<div class="left" style="border-right:1px solid #e6e6e6;width:600px;height:520px;float:left;margin-top:20px;margin-left:19px;">
+					<div style="width:580px;height:480px;position:relative;overflow:hidden;">
+						<div class="redsa" style="float: left;
+						width: 0;
+						height: 0;
+						border-top:9px solid red;
+						border-left:9px solid #fafafa;
+						border-right:9px solid #fafafa;
+						border-bottom:9px solid #fafafa;
+						position: absolute;
+						top:39px;
+						left: 665px;
+						margin-left: -526px;"></div>
+						<div class="redsb" style="float: left;
+						width: 0;
+						height: 0;
+						border-top:9px solid red;
+						border-left:9px solid #fafafa;
+						border-right:9px solid #fafafa;
+						border-bottom:9px solid #fafafa;
+						position: absolute;
+						top:39px;
+						left: 952px;
+						margin-left: -526px;
+						display:none"></div>
+						<ul>
+							<li class="accountRegister_a" style="border-bottom:3px solid red;width:50%;height:40px;display:inline-block;margin-top:-1px;text-align:center;"><a style="font-size:18px;cursor:pointer;">账号注册</a></li>
+							<li class="phoneRegister_a" style="border-bottom:1px solid #e6e6e6;width:50%;height:40px;display:inline-block;margin-top:-1px;text-align:center;"><a style="font-size:18px;cursor:pointer;">手机注册</a></li>
+						</ul>
+						<form class="accountRegister" action="register_submit" method="get" accept-charset="utf-8" style="width:400px;height:383px;margin-left:100px;margin-top:50px;float:left;position:absolute;top: 50px;left:0px;">
+							<dl style="overflow:hidden;margin-top:-1px;display:block;width:398px;height:52px;border:1px solid #e6e6e6;position:relative;box-sizing:border-box;">
+								<dt style="display:block;font-size:14px;float:left;color:#666;line-height:20px;padding:16px 0px 16px 20px;width:92px;height:52px;font-weight:normal;">用户名：</dt>
+								<dd style="width:290px;height:28px;float:left;padding:12px 0px;display:block;">
+									<input style="font-family:'microsoft yahei';font-size:14px;display:inline-block;width:290px;height:28px;padding: 0px;outline:none;border:none;" type="text" name="user_name" placeholder="请使用3-15个中、英文、数字及“-”符号" />
+								</dd><span></span>
+							</dl>
+							<dl style="overflow:hidden;margin-top:-1px;display:block;width:398px;height:52px;border:1px solid #e6e6e6;position:relative; box-sizing:border-box;">
+								<dt style="display:block;font-size:14px;float:left;color:#666;line-height:20px;padding:16px 0px 16px 20px;width:92px;height:52px;font-weight:normal;">设置密码：</dt>
+								<dd style="width:290px;height:28px;float:left;padding:12px 0px;display:block;">
+									<input style="font-family:'microsoft yahei';font-size:14px; display:inline-block;width:290px;height:28px;padding: 0px;outline:none;border:none;" type="text" name="user_name" placeholder="6-20个大小写英文字母、符号或数字" />
+								</dd>
+							</dl>
+							<dl style="overflow:hidden;margin-top:-1px;display:block;width:398px;height:52px;border:1px solid #e6e6e6;position:relative;box-sizing:border-box;">
+								<dt style="display:block;font-size:14px;float:left;color:#666;line-height:20px;padding:16px 0px 16px 20px;width:92px;height:52px;font-weight:normal;">确认密码：</dt>
+								<dd style="width:290px;height:28px;float:left;padding:12px 0px;display:block;">
+									<input style="font-family:'microsoft yahei';font-size:14px; display:inline-block;width:290px;height:28px;padding: 0px;outline:none;border:none;" type="text" name="user_name" placeholder="请再次输入密码" />
+								</dd>
+							</dl>
+							<dl style="overflow:hidden;margin-top:-1px;display:block;width:398px;height:52px;border:1px solid #e6e6e6;position:relative;box-sizing:border-box;">
+								<dt style="display:block;font-size:14px;float:left;color:#666;line-height:20px;padding:16px 0px 16px 20px;width:92px;height:52px;font-weight:normal;">邮箱：</dt>
+								<dd style="width:290px;height:28px;float:left;padding:12px 0px;display:block;">
+									<input style="font-family:'microsoft yahei';font-size:14px; display:inline-block;width:290px;height:28px;padding: 0px;outline:none;border:none;" type="text" name="user_name" placeholder="输入常用邮箱作为验证及找回密码使用" />
+								</dd>
+							</dl>
+							<dl style="margin-top:15px;width:279px;height:52px;border:1px solid #e6e6e6;position:relative;float:left;">
+								<dt style="overflow:hidden;display:block;font-size:14px;float:left;color:#666;line-height:20px;padding:16px 0px 16px 20px;width:92px;height:52px;font-weight:normal;">验证码：</dt>
+								<dd style="width:171px;height:28px;float:left;padding:12px 0px;display:block;">
+									<input style="font-family:'microsoft yahei';font-size:14px; display:inline-block;width:171px;height:28px;padding: 0px;outline:none;border:none;" type="text" name="user_name" placeholder="输入验证码" />
+								</dd>
+							</dl>
+							<div class="registerJpga" style="width:120px;height:52px;float:left;background:green;margin-top:15px;">
+
+							</div>
+							<div style="width:120px;height:52px;float:left;background:red;margin-top:15px;margin-left:-120px;display:none;opacity:0.6;"><span style="font-size:14px;color:white;text-align:center;line-height:52px;display:block;margin-left:2px;cursor:pointer;">看不清，换一张</span></div>
+							<dl style="margin-top:82px;font-size:14px;line-height:30px;display:block;border:none;">
+								<dt style="float:left;display:block;width:13px;height:13px;"><input type="checkbox" checked="checked"/></dt>
+								<dd style="margin-left:10px;float:left;display:block;width:180px;height:30px;"><span>阅读并同意</span><a href="#" style="color:#06c;">《服务协议》</a></dd>
+							</dl>
+							<input type="submit" value="立即注册" style="width:400px;height:42px;color:white;background:red;font-size:16px;font-weight:600;font-family:'microsoft yahei';cursor:pointer;border-radius:3px;border:1px solid red;margin-top:15px;" />
+						</form>
+						<form class="phoneRegister" action="register_submit" method="get" accept-charset="utf-8" style="width:400px;height:383px;margin-left:100px;margin-top:50px;float:left;position:absolute;top: 50px;left:-600px;">
+							<dl style="overflow:hidden;margin-top:-1px;display:block;width:398px;height:52px;border:1px solid #e6e6e6;position:relative;">
+								<dt style="display:block;font-size:14px;float:left;color:#666;line-height:20px;padding:16px 0px 16px 20px;width:92px;height:52px;font-weight:normal;">手机号：</dt>
+								<dd style="width:290px;height:28px;float:left;padding:12px 0px;display:block;">
+									<input style="font-family:'microsoft yahei';font-size:14px;display:inline-block;width:290px;height:28px;padding: 0px;outline:none;border:none;" type="text" name="user_name" placeholder="请输入手机号码" />
+								</dd>
+							</dl>
+							<dl style="margin-top:-1px;width:279px;height:52px;border:1px solid #e6e6e6;position:relative;float:left;">
+								<dt style="overflow:hidden;display:block;font-size:14px;float:left;color:#666;line-height:20px;padding:16px 0px 16px 20px;width:92px;height:52px;font-weight:normal;">验证码：</dt>
+								<dd style="width:171px;height:28px;float:left;padding:12px 0px;display:block;">
+									<input style="font-family:'microsoft yahei';font-size:14px; display:inline-block;width:171px;height:28px;padding: 0px;outline:none;border:none;" type="text" name="user_name" placeholder="输入验证码" />
+								</dd>
+							</dl>
+							<div class="registerJpgb" style="width:120px;height:52px;float:left;background:green;margin-top:-1px;">
+								<img src="" alt="">
+							</div>
+							<div style="width:120px;height:52px;float:left;background:red;margin-left:-120px;display:none;opacity:0.6;"><span style="font-size:14px;color:white;text-align:center;line-height:52px;display:block;margin-left:2px;cursor:pointer;">看不清，换一张</span></div>
+							<div style="font-size:12px;color:#999;margin-top:68px;">确保上方验证码输入正确，点击<span style="background:#4ea335;cursor:pointer;display:inline-block;line=height:22px;width:100px;height:22px;padding:0px 8px;"><a href="" style="color:white;text-indent:12px;line-height:22px;"><i style="color:white;line-height:22px;width:8px;height:10px;margin-top:1px;margin-left:1px;"><img src="../images/phone.png"></i>发送短信验证</a></span>，并将您手机短信所接收到的“6位动态码”输入到下方短信验证，再提交下一步。</div>
+							<dl style="overflow:hidden;margin-top:15px;display:block;width:398px;height:52px;border:1px solid #e6e6e6;position:relative;">
+								<dt style="display:block;font-size:14px;float:left;color:#666;line-height:20px;padding:16px 0px 16px 20px;width:92px;height:52px;font-weight:normal;">设置密码：</dt>
+								<dd style="width:290px;height:28px;float:left;padding:12px 0px;display:block;">
+									<input style="font-family:'microsoft yahei';font-size:14px; display:inline-block;width:290px;height:28px;padding: 0px;outline:none;border:none;" type="text" name="user_name" placeholder="6-20个大小写英文字母、符号或数字" />
+								</dd>
+							</dl>
+							<input type="submit" value="下一步" style="width:400px;height:42px;color:white;background:red;font-size:16px;font-weight:600;font-family:'microsoft yahei';cursor:pointer;border-radius:3px;border:1px solid red;margin-top:15px;" />
+						</form>
+					</div>
+				</div>
+				<div class="right" style="width:200px;height:500px;float:right;padding:20px 0px 0px 20px;">
+					<div style="width:200px;height:102px;border-bottom:1px dashed #e6e6e6;margin-top:20px;">
+						<h4 style="font-size:14px;line-height:20px;height:20px;color:#333;">使用合作网站账号直接登录</h4>
+						<a href="" style="display:inline-block;margin-left:12px;width:42px;margin-top:20px;">
+							<i style="display:block;width:42px;height:42px;background:url(../images/login_pic.png) no-repeat -126px -32px;"> 
+						</i>
+						</a>
+						<a href="" style="display:inline-block;margin-left:12px;width:42px;margin-top:20px;">
+							<i style="display:block;width:42px;height:42px;background:url(../images/login_pic.png) no-repeat -210px -32px;"> 
+						</i>
+						</a>
+					</div>
+					<div style="width:200px;height:246px;margin-top:20px;">
+						<h4 style="font-size:14px;color:#333;height:20px;line-height:20px">注册之后您可以</h4>
+						<ol style="width:200px;height:204px;margin-top:10px;">
+							<li style="padding-left:12px;color:#999;line-height:24px;margin-bottom:10px;"><i style="background:url(../images/login_pic.png) no-repeat 0px -77px;display:inline-block;margin-left:0px;width:24px;height:24px;vertical-align:middle;"> 
+						</i>
+								<span style="display:inline-block;margin-left:5px;">购买商品支付订单</span>
+							</li>
+							<li style="padding-left:12px;color:#999;line-height:24px;margin-bottom:10px;"><i style="background:url(../images/login_pic.png) no-repeat -30px -77px;display:inline-block;margin-left:0px;width:24px;height:24px;vertical-align:middle;"> 
+						</i>
+								<span style="display:inline-block;margin-left:5px;">收藏商品关注店铺</span>
+							</li>
+							<li style="padding-left:12px;color:#999;line-height:24px;margin-bottom:10px;"><i style="background:url(../images/login_pic.png) no-repeat -60px -77px;display:inline-block;margin-left:0px;width:24px;height:24px;vertical-align:middle;"> 
+						</i>
+								<span style="display:inline-block;margin-left:5px;">安全交易诚信无忧</span>
+							</li>
+							<li style="padding-left:12px;color:#999;line-height:24px;margin-bottom:10px;"><i style="background:url(../images/login_pic.png) no-repeat -90px -77px;display:inline-block;margin-left:0px;width:24px;height:24px;vertical-align:middle;"> 
+						</i>
+								<span style="display:inline-block;margin-left:5px;">积分获取优惠购物</span>
+							</li>
+							<li style="padding-left:12px;color:#999;line-height:24px;margin-bottom:10px;"><i style="background:url(../images/login_pic.png) no-repeat -120px -77px;display:inline-block;margin-left:0px;width:24px;height:24px;vertical-align:middle;"> 
+						</i>
+								<span style="display:inline-block;margin-left:5px;">会员等级享受特权</span>
+							</li>
+							<li style="padding-left:12px;color:#999;line-height:24px;margin-bottom:10px;"><i style="background:url(../images/login_pic.png) no-repeat -150px -77px;display:inline-block;margin-left:0px;width:24px;height:24px;vertical-align:middle;"> 
+						</i>
+								<span style="display:inline-block;margin-left:5px;">评价晒单站外分享</span>
+							</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer" style="height: 102px; background: white;">
+			<div class="footbox" style="width: 1000px;height: 102px;margin: 0 auto;">
+				<div class="topbox" style="height: 10px;width: 1000px;border-bottom: 2px solid #eeeeee;"></div>
+				<div class="bottombox" style="height: 36px;	width: 1000px;margin-top: 10px;">
+					<a href="#" class="imga" style="display: block;width: 93px;height: 34px;margin-top: 1px;float: left;"><img src="../images/credit-flag3.png"></a>
+					<a class="imgb" href="#" style="display: block;width: 77px;height:34px;margin-top: 1px;margin-left: 1px;float: left;"><img src="../images/isc2.png"></a>
+					<div class="rightbox" style="width: 776px;height: 36px;	float: left;margin-left: 6px;">
+						<div class="topnav" style="width: 628px;height: 17px;margin-left: 1px;">
+							<ul style="width: 628px;height: 18px;">
+								<li style="float: left;	padding-left: 4px;padding-right: 4px;"><a href="../index.html" style="line-height: 12px;font-size: 12px;">返回首页</a><img style="line-height: 15px;margin-left: 4px;" src="../images/s.jpg"></li>
+								<li style="float: left;	padding-left: 4px;padding-right: 4px;"><a href="#" style="line-height: 12px;font-size: 12px;">电信增值业务经营许可证</a><img style="line-height: 15px;margin-left: 4px;" src="../images/s.jpg"></li>
+								<li style="float: left;	padding-left: 4px;padding-right: 4px;"><a href="#" style="line-height: 12px;font-size: 12px;">出版物经营许可证</a><img style="line-height: 15px;margin-left: 4px;" src="../images/s.jpg"></li>
+								<li style="float: left;	padding-left: 4px;padding-right: 4px;"><a href="#" style="line-height: 12px;font-size: 12px;">网络文化经营许可证</a><img style="line-height: 15px;margin-left: 4px;" src="../images/s.jpg"></li>
+								<li style="float: left;	padding-left: 4px;padding-right: 4px;"><a href="#" style="line-height: 12px;font-size: 12px;">公司简介</a><img style="line-height: 15px;margin-left: 4px;" src="../images/s.jpg"></li>
+								<li style="float: left;	padding-left: 4px;padding-right: 4px;"><a href="#" style="line-height: 12px;font-size: 12px;">友情链接</a></li>
+							</ul>
+						</div>
+						<div class="bottomser" style="width: 787px;height: 15px;margin-left: 2px;margin-top: 4px;
+								font-size: 12px;"><span>CopyRight © 2016-2017 藏宝网 甘B2-20140002-1 | 甘B2-20140002-2www.zangbooo.com 版权所有 客户服务中心(7×24):0941-8257726</span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>

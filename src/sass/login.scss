@@ -1,0 +1,460 @@
+.header {
+	height:85px;
+	width:101%;
+	background:white;
+	.head{
+		width: 1000px;
+		height: 85px;
+		margin: 0 auto;
+		.logo{
+			width: 220px;
+			height: 60px;
+			margin-top: 13px;
+			float: left;
+		}
+		.snav{
+			width: 316px;
+			height: 86px;
+			float: right;
+			.pg{
+				width: 42px;
+				height: 42px;
+				border-radius: 21px;
+				margin-left: 4px;
+				margin-top: 35px;
+				float: left;
+				background: url(../images/default_user_portrait.gif) ;
+				background-size: 42px;
+				a{
+					display: block;
+					width: 42px;
+					height: 42px;
+					opacity: 0;
+				}
+			}
+			.loginWords{
+				width: 260px;
+				height: 34px;
+				float: right;
+				margin-top:40px; 
+				font-size: 14px;
+				a{
+					color: #0066ff;
+					font-weight: bolder;
+				}
+				a:hover{
+					color: red;
+				}
+			}
+		}
+	}
+}
+
+.mainer{
+	width: 101%;
+	min-height: 592px;
+	background: #fafafa;
+	border-bottom: 1px solid #eeeeee;
+	border-top: 1px solid #eeeeee;
+	.smainer{
+		width: 1000px;
+		height: 215px;
+		margin:0 auto;
+			.left{
+			width: 450px;
+			height: 595px;
+			float: left;
+			margin:0 auto;
+			.leftTop{
+				width: 214px;
+				height: 60px;
+				border-bottom-left-radius: 60px;
+				border-bottom-right-radius: 60px;
+				background-color: white;
+				margin-left: 10px;
+				margin-top: -1px;
+			}
+			.leftBottom{
+				width: 450px;
+				height: 350px;
+				margin-top: 34px;
+			}
+		}
+			.right{
+				width: 480px;
+				height: 510px;
+				float: left;
+				margin-top: 62px;
+				margin-left: 68px;
+				border:1px solid #e6e6e6;
+				border-radius: 4px;
+				background: white;
+				.arrow{
+						float: left;
+						width: 0;
+						height: 0;
+						border-top:7px solid white;
+						border-left:7px solid white;
+						border-right:7px solid white;
+						border-bottom:7px solid #e6e6e6;
+						position: absolute;
+						top:134px;
+						left: 580px;
+						margin-left: 180px;
+				}
+				.user{
+					width: 440px;
+					height: 56px;
+					/*border-bottom: 1px solid #e6e6e6;*/
+					margin-left: 36px;
+					position: relative;
+					span{
+						cursor: pointer;
+						font-size: 16px;
+						line-height: 60px;
+						padding-left: 60px;
+						color: #999999;
+					}
+					span:hover{
+						color:black;
+					}
+					.userlogin{
+						border-bottom: 3px solid red;
+						width: 210px;
+						float: left;
+						span{
+							color:red;
+						}
+					}
+					.smalla{
+						float: left;
+						width: 0;
+						height: 0;
+						border-top:7px solid red;
+						border-left:7px solid white;
+						border-right:7px solid white;
+						border-bottom:7px solid white;
+						position: absolute;
+						top:62px;
+						left: 140px;
+						margin-left: 180px;
+						/*margin-top: 0px;*/
+						display: none;
+					}
+					.phoneuser{
+						border-bottom: 1px solid #e6e6e6;
+						width: 210px;
+						float: left;
+
+					}
+					.smallb{
+						float: left;
+						width: 0;
+						height: 0;
+						border-top:7px solid red;
+						border-left:7px solid white;
+						border-right:7px solid white;
+						border-bottom:7px solid white;
+						position: absolute;
+						top: 62px;
+						left: -6px;
+						margin-left: 90px;
+						/*margin-top: 0px;*/
+					}
+				}
+				.message{
+
+					width: 350px;
+					height: 380px;
+					margin-top: 34px;
+					margin-left: 65px;
+					#phoneuser{display:none;}
+					.username{
+						border:1px solid #e6e6e6;
+						width: 350px;
+						height: 54px;
+						font-size: 13px;
+						float: left;
+							span{
+								display: block;
+								/*letter-spacing: 12px;*/
+								text-indent: 12px;
+								font-size: 13px;
+								height: 54px;
+								line-height: 54px;
+								float: left;
+							}
+							input{
+								width: 250px;
+								float: left;
+								margin-top: 16px;
+								outline: none;
+								border:0;
+								font-size: 14px;
+							}
+					}
+					.password{
+						border:1px solid #e6e6e6;
+						width: 350px;
+						height: 54px;
+						font-size: 13px;
+						float: left;
+							span{
+								display: block;
+								/*letter-spacing: 12px;*/
+								text-indent: 12px;
+								font-size: 13px;
+								height: 54px;
+								line-height: 54px;
+								float: left;
+							}
+							input{
+								width: 250px;
+								float: left;
+								margin-top: 16px;
+								outline: none;
+								border:0;
+								font-size: 14px;
+							}
+					}
+					.verificationCode{
+						margin-top: 15px;
+						border:1px solid #e6e6e6;
+						width: 230px;
+						height: 54px;
+						font-size: 13px;
+						float: left;
+							span{
+								display: block;
+								
+								text-indent: 12px;
+								font-size: 13px;
+								height: 54px;
+								line-height: 54px;
+								float: left;
+							}
+							input{
+								width: 150px;
+								float: left;
+								margin-top: 16px;
+								outline: none;
+								border:0;
+								font-size: 14px;
+							}
+
+					}
+					.codejpg{
+						margin-top: 15px;
+						border:1px solid #e6e6e6;
+						width: 116px;
+						height: 54px;
+						font-size: 13px;
+						float: left;
+						background: pink;
+						position: relative;
+						.codejpgb{
+							border:1px solid #e6e6e6;
+							width: 116px;
+							height: 54px;
+							float: left;
+							opacity: 0.8;
+							background: #918e8e;
+							position: absolute;
+							top: 0;
+							left:0;
+							display: none;
+								p{
+									cursor: pointer;
+									color: white;
+									margin-left: 0px;
+									line-height: 8px;
+									font-size: 14px;
+									text-align:center;
+								}
+						}
+						span{
+							display: block;
+							font-size: 25px;
+							color: pink;
+							letter-spacing: 12px;
+							text-indent: 10px;
+							line-height: 54px;
+						}
+					}
+					.checkBox{
+						margin-top: 20px;
+						margin-left: 10px;
+						float: left;
+					}
+					.checkContent{
+						display: block;
+						margin-top: 16px;
+						float: left;
+						margin-left: 5px;
+					}
+					.non{
+						display: block;
+						margin-top: 16px;
+						margin-left: 5px;
+						float: left;
+						color: red;
+						display: none;
+						/*opacity: 0;*/
+					}
+					#forgetp{
+							display: block;
+							margin-left: 10px;
+							float: right;
+							cursor: pointer;
+							margin-top: 16px;
+							a{
+								color: #0066cc;
+							}
+							a:hover{
+								color: red;
+							}
+						}
+						#submit{
+							margin-top: 20px;
+							width: 350px;
+							height: 45px;
+							background: red;
+							font-size: 18px;
+							color: white;
+							cursor: pointer;
+							font-weight: bolder;
+							letter-spacing: 12px;
+							text-align: center;
+							border-radius: 6px;
+							border:none;
+						}
+				}
+				p{
+					color: black;
+					margin-top: 24px;
+					margin-left: 10px;
+				}
+				.loginPhone{
+					width: 164px;
+					height: 32px;
+					margin-left: 10px;
+					margin-top: 10px;
+					.qq{
+						width: 32px;
+						height: 32px;
+						float: left;
+						margin-left: 1px;
+						background: url(../images/login_pic.png) no-repeat 0px 0px;
+							span{
+								display: block;
+								float: left;
+								width: 25px;
+								margin-left: 36px;
+								line-height: 32px;
+
+							}
+						}
+				.weixin{
+					width: 32px;
+					height: 32px;
+					float: left;
+					margin-left: 45px;
+					background: url(../images/login_pic.png) no-repeat -64px 0px;
+					span{
+						display: block;
+						float: left;
+						width: 25px;
+						margin-left: 36px;
+						line-height: 32px;
+					}
+				}
+				.qq:hover{
+					cursor: pointer;
+					background: url(../images/login_pic.png) no-repeat -96px 0px ;
+					span{
+						color: #3eb6e8;
+					}
+				}
+				.weixin:hover{
+					cursor: pointer;
+					background: url(../images/login_pic.png) no-repeat -160px 0px;
+					span{
+						color: #4ea335;
+					}
+				}
+			}
+		}
+	}
+}
+.footer{
+	width: 101%;
+	height: 102px;
+	.footbox{
+		width: 1000px;
+		height: 102px;
+		margin: 0 auto;
+		.topbox{
+		height: 10px;
+		width: 1000px;
+		border-bottom: 2px solid #eeeeee;
+		}
+		.bottombox{
+				height: 36px;
+				width: 1000px;
+				margin-top: 10px;
+				.imga{
+					display: block;
+					width: 93px;
+					height: 34px;
+					margin-top: 1px;
+					float: left;
+				}
+				.imgb{
+					display: block;
+					width: 77px;
+					height:34px;
+					margin-top: 1px;
+					margin-left: 1px;
+					float: left;
+				}
+				.rightbox{
+					width: 776px;
+					height: 36px;
+					float: left;
+					margin-left: 6px;
+						.topnav{
+								width: 628px;
+								height: 17px;
+								margin-left: 1px;
+								ul{
+									width: 628px;
+									height: 18px;
+									li{
+										float: left;
+										padding-left: 4px;
+										padding-right: 4px;
+										a{
+											line-height: 12px;
+											font-size: 12px;
+
+										}
+										img{
+											line-height: 15px;
+											margin-left: 7px;
+											margin-top:-4px;
+										}
+									}
+								}
+								 
+						}
+						.bottomser{
+								width: 787px;
+								height: 15px;
+								margin-left: 2px;
+								margin-top: 4px;
+								font-size: 12px;
+								}
+				}
+			}
+	}
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<meta name="keywords" content="登录">
+	<meta name="author" content="xiangyong">
+	<link rel="stylesheet" type="text/css" href="../css/base.css">
+	<link rel="shortcut icon" type="text/css" href="../images/zangbao.jpg">
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+	<script type="text/javascript" src="../lib/jquery/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="../js/login.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="head">
+			<div class="logo"><a href="../index.html"><img src="../images/05204284784259187.png"></a></div>
+			<div class="snav">
+				<div class="pg"><a href="#"></a></div>
+				<div class="loginWords">你好，欢迎来到藏宝网<br>已注册的会员请登录，或立即&nbsp<a href="register.html">注册新会员</a></div>
+			</div>
+		</div>
+	</div>
+	<div onload="loadJpg()" class="mainer">
+		<div class="smainer">
+			<div class="left">
+				<div class="leftTop"></div>
+				<div class="leftBottom"></div>
+			</div>
+			<div class="right">
+				<div class="arrow"></div>
+				<div class="user">
+					<div class="userlogin"><span>用户登录</span></div>
+					<div class="phoneuser"><span>手机动态码登录</span></div><div class="smalla"></div><div class="smallb"></div>
+				</div>
+				<div class="message">
+						<form id="pcuser">
+							<div class="username">
+								<span>账&nbsp;&nbsp;&nbsp;&nbsp;号：</span><input class="usernames" type="text" placeholder="可以使用已注册的用户名或手机号登录"  />
+							</div>
+							<div class="password">
+								<span>密&nbsp;&nbsp;&nbsp;&nbsp;码：</span><input class="passwords" type="text" placeholder="6-20个大小写英文字母、符号或数字" value="" >
+							</div>
+							<div class="verificationCode">
+								<span>验证码：&nbsp;</span><input type="text" placeholder="输入验证码" value="" >
+							</div>
+							<div class="codejpg">
+								<span id="vcode"></span>
+								<div class="codejpgb"><p value="">看不清，换一张</p></div>
+							</div>
+							<input class="checkBox" type="checkbox"><span class="checkContent">七天自动登录</span><span class="non">请勿在公用电脑上使用</span><span id="forgetp"><a href="">忘记密码？</a></span>
+							<input id="submit" type="submit" value="登录">
+						</form>
+
+
+						<form id="phoneuser">
+								<div class="username">
+									<span>手机号：</span><input class="usernames" type="text" placeholder="可填写已注册的手机号接收短信"  />
+								</div>
+
+								<div class="verificationCode">
+									<span>验证码：&nbsp;</span><input type="text" placeholder="输入验证码" value="" >
+								</div>
+								<div class="codejpg">
+									<span id="vcode"></span>
+									<div class="codejpgb"><p value="">看不清，换一张</p></div>
+								</div>
+								<div class="password">
+									<span>动态码：</span><input class="passwords" type="text" placeholder="输入6位手机动态码" value="" >
+								</div>
+								<span id="span">正确输入上方验证码后，点击 <a href="#">发送手机动态码</a>，查收<br/>短信将系统发送的“6位手机动态码”输入到下方验证后登<br/>录。</span>
+									<input id="submit" type="submit" value="登录">
+						</form>
+
+					<p>使用合作网站账号登录：</p>
+					<div class="loginPhone">
+						<a href="#"><div class="qq"><span>QQ</span></div></a>
+						<a href="#"><div class="weixin"><span>微信</span></div></a>
+					</div>
+				</div>
+				<div class="messagePhone"></div>
+			</div>			
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footbox">
+			<div class="topbox"></div>
+			<div class="bottombox"><a href="#" class="imga"><img src="../images/credit-flag3.png"></a><a class="imgb" href="#"><img src="../images/isc2.png"></a>
+				<div class="rightbox">
+					<div class="topnav">
+						<ul>
+							<li><a href="../index.html">返回首页</a><img src="../images/s.jpg"></li>
+							<li><a href="#">电信增值业务经营许可证</a><img src="../images/s.jpg"></li>
+							<li><a href="">出版物经营许可证</a><img src="../images/s.jpg"></li>
+							<li><a href="">网络文化经营许可证</a><img src="../images/s.jpg"></li>
+							<li><a href="">公司简介</a><img src="../images/s.jpg"></li>
+							<li><a href="">友情链接</a></li>
+						</ul>
+					</div>
+					<div class="bottomser"><span>CopyRight © 2016-2017 藏宝网 甘B2-20140002-1 | 甘B2-20140002-2www.zangbooo.com 版权所有 客户服务中心(7×24):0941-8257726</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
